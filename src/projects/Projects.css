@@ -1,0 +1,23 @@
+   section#projects {
+
+      background: linear-gradient(to bottom, #4e4eb9, #0d0247);
+      background-attachment: fixed;
+      background-size: cover;
+      color: #191919;
+      animation: none;
+      scroll-snap-type: proximity;
+
+    }
+       section.projects {
+
+      background: linear-gradient(to bottom, #4e4eb9, #0d0247);
+      background-attachment: fixed;
+      background-size: cover;
+      color: #191919;
+      animation: none; 
+    }
+         @keyframes gradient {
+      0% { background-position: 0% 50%; }
+      50% { background-position: 100% 50%; }
+      100% { background-position: 0% 50%; }
+         }

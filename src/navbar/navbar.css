@@ -1,0 +1,47 @@
+    .topnav.show {
+      transform: translateY(0);
+      opacity: 1;
+    }
+
+    .topnav a {
+      float: right;
+      display: block;
+      color: #f2f2f2;
+      
+      text-align: center;
+      padding: 20px 67px;
+      text-decoration: none;
+      transition: color 0.5s linear;
+     background: linear-gradient(to bottom, #000016, #170378);
+      background-attachment: fixed;
+      background-size: cover;
+      color: #ffffff;
+      animation: none; 
+    }
+
+    .topnav a:hover {
+      color: rgb(79, 220, 255);
+    }
+  
+      .topnav {
+      overflow: hidden;
+      
+      box-shadow: 0 2px 10px rgba(255, 255, 255, 0.58);
+      position: fixed;
+      width: 100%;
+      z-index: 11;
+      top: 0;
+      transform: translateY(-100%);
+      opacity: 0;
+      transition: transform 0.8s ease, opacity 0.8s ease;
+      background: linear-gradient(to bottom, #000016, #170378);
+      background-attachment: fixed;
+      background-size: cover;
+      color: #191919;
+      animation: none; 
+    }
+       @keyframes gradient {
+      0% { background-position: 0% 50%; }
+      50% { background-position: 100% 50%; }
+      100% { background-position: 0% 50%; }
+         }

@@ -1,0 +1,30 @@
+.text-type {
+  display: inline-block;
+  white-space: pre-wrap;
+ 
+
+}
+
+.text-type__cursor {
+  margin-left: 0.25rem;
+  display: inline-block;
+  opacity: 1;
+}
+
+.text-type__cursor--hidden {
+  display: none;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap');
+
+
+body {
+  font-family: 'Poppins', system-ui, -apple-system, sans-serif;
+}
+
+.text-type {
+    font-size: 160px !important;
+    z-index: 12; 
+
+}
+

@@ -1,0 +1,17 @@
+    section.contact {
+
+      background: linear-gradient(to bottom, #3b3baa, #140367);
+      background-attachment: fixed;
+      background-size: cover;
+      color: #191919;
+      animation: none; 
+    }
+    
+    section#contact {
+
+      background: linear-gradient(to bottom, #3b3baa, #140367);
+      background-attachment: fixed;
+      background-size: cover;
+      color: #191919;
+      animation: none; 
+    }
