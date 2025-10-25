@@ -12,11 +12,30 @@
 .silk-bg-wrapper > * {
   width: 100%;
   height: 100%;
-  object-fit: cover; /* for SVG/canvas scaling */
+  object-fit: cover; 
 }
 
-/* Optional: your text styling */
+
 .text-type {
   position: relative;
-  z-index: 10; /* keeps text above Silk */
+  z-index: 10;
+}
+
+.btn-glow {
+  position: relative;
+  padding: 0.75rem 1.5rem;
+  border: none;
+  background: linear-gradient(90deg, #22127e 0%, #7babff 100%);
+  color: white !important;
+  font-size: 1rem;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  box-shadow: 0 0 0 rgba(135, 219, 244, 0);
+  margin-top: 25px; 
+}
+
+.btn-glow:hover {
+  transform: translateY(-3px);
+  box-shadow: 0 8px 20px rgba(37, 117, 252, 0.4);
 }
