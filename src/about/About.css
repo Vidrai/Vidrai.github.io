@@ -6,16 +6,4 @@
       color: #191919;
       animation: none; 
     }
-        section.about {
 
-      background: linear-gradient(to bottom, #5656b7, #140367);
-      background-attachment: fixed;
-      background-size: cover;
-      color: #191919;
-      animation: none; 
-    }
-          @keyframes gradient {
-      0% { background-position: 0% 50%; }
-      50% { background-position: 100% 50%; }
-      100% { background-position: 0% 50%; }
-    }
