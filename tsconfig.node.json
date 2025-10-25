@@ -1,26 +1,29 @@
 {
   "compilerOptions": {
+    /* Output & Build */
     "tsBuildInfoFile": "./node_modules/.tmp/tsconfig.node.tsbuildinfo",
     "target": "ES2022",
-    "lib": ["ES2023"],
-    "module": "ESNext",
-    "skipLibCheck": true,
+    "lib": ["DOM", "DOM.Iterable", "ES2023"],
 
-    /* Bundler mode */
+    /* Module Resolution (modern TS5) */
+    "module": "ESNext",
     "moduleResolution": "bundler",
     "allowImportingTsExtensions": true,
     "verbatimModuleSyntax": true,
-    "moduleDetection": "force",
     "noEmit": true,
 
-    /* Linting */
+    /* Type Definitions */
+    "types": ["vite/client", "node"],
+
+    /* Strictness & Linting */
     "strict": true,
+    "skipLibCheck": true,
     "noUnusedLocals": true,
     "noUnusedParameters": true,
-    "erasableSyntaxOnly": true,
     "noFallthroughCasesInSwitch": true,
-    "noUncheckedSideEffectImports": true
-  },
-  "include": ["vite.config.ts"]
-}
 
+    /* React JSX Support */
+    "jsx": "react-jsx"
+  },
+  "include": ["src", "vite.config.ts"]
+}
