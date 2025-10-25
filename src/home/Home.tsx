@@ -14,7 +14,7 @@ function Home() {
           speed={5}
           scale={0.8}       // try adjusting this value for more coverage
           color="#4e4eb9"
-          noiseIntensity={1.5}
+          noiseIntensity={1.0}
           rotation={0}
         />
       </div>
@@ -23,7 +23,7 @@ function Home() {
       <div className="relative z-10 text-type">
         <TextType
           text={["Hello, I'm Vedran.", "Welcome To My Portfolio!"]}
-          typingSpeed={150}
+          typingSpeed={50}
           pauseDuration={1500}
           showCursor={true}
           cursorCharacter="|"
