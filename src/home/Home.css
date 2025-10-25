@@ -1,5 +1,22 @@
-    #home {
-      background-color: transparent; /* show gradient behind it */
-    }
+/* Fullscreen background wrapper */
+.silk-bg-wrapper {
+  position: absolute; /* make it fill the section */
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+  z-index: 0;
+}
 
+.silk-bg-wrapper > * {
+  width: 100%;
+  height: 100%;
+  object-fit: cover; /* for SVG/canvas scaling */
+}
 
+/* Optional: your text styling */
+.text-type {
+  position: relative;
+  z-index: 10; /* keeps text above Silk */
+}

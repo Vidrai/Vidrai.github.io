@@ -15,6 +15,7 @@
       background-size: cover;
       color: #191919;
       animation: none; 
+      z-index: 11;
     }
          @keyframes gradient {
       0% { background-position: 0% 50%; }
