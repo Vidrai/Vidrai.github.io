@@ -6,7 +6,7 @@ function Home(){
   <section id="home">
     <div className="text-type">
       <TextType 
-          text={["Hello, Im Vedran.", "Welcome To My Portfolio!"]}
+          text={["Hello, Im Vedran.", "Welcome To My Port"]}
             typingSpeed={75}
               pauseDuration={1500}
             showCursor={true}
