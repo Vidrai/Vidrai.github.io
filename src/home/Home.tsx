@@ -15,7 +15,7 @@ function Home() {
         <Silk
           speed={5}
           scale={0.8}       
-          color="#4e4eb9"
+          color="#2e2e6dff"
           noiseIntensity={1.0}
           rotation={0}
         />
