@@ -10,7 +10,7 @@ function About() {
         <p>I'm a passionate web developer with a love for coding and design.</p>
    
         </div>
-        <div style={{ width: '100%', height: '600px', position: 'relative' }}>
+        <div className='LightRays'>
           <LightRays
             raysOrigin="top-center"
             raysColor="#00ffff"
