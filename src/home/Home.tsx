@@ -24,7 +24,7 @@ function Home() {
       {}
       <div className="relative z-10 text-type">
         <TextType
-          text={["Hello, I'm Vedran.", "Welcome To My Portfolio!"]}
+          text={["Hello, I'm Vedran.", "This Is My Portfolio!"]}
           typingSpeed={50}
           pauseDuration={1500}
           showCursor={true}
